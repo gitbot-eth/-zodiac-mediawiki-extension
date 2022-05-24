@@ -1,0 +1,1 @@
+# -zodiac-mediawiki-extension
