@@ -1,1 +1,1 @@
-# -zodiac-mediawiki-extension
+# zodiac-mediawiki-extension
