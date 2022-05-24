@@ -1,0 +1,21 @@
+{
+  "name": "ZodiacExtension",
+  "author": ["Gnosis Guild", "dOrg"],
+  "license-name": "GPL-3.0-or-later",
+  "type": "other",
+  "requires": {
+    "MediaWiki": ">= 1.35.0"
+  },
+  "AutoloadNamespaces": {
+    "MediaWiki\\Extension\\ZodiacExtension\\": "src/"
+  },
+  "Hooks": {
+    "GetPreferences": [
+      "MediaWiki\\Extension\\ZodiacExtension\\Hooks::onGetPreferences"
+    ]
+  },
+  "MessagesDirs": {
+    "ZodiacExtension": ["i18n"]
+  },
+  "manifest_version": 2
+}

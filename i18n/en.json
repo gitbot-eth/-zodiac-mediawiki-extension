@@ -1,0 +1,8 @@
+{
+  "@metadata": {
+    "authors": ["Tassu"]
+  },
+  "mypref-ethereum-address": "Ethereum address",
+  "ethereum-address-placeholder": "0x...",
+  "ethereum-address-or-ens": "Your Ethereum address or ENS name"
+}
