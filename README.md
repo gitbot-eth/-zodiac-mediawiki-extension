@@ -1,10 +1,20 @@
-# zodiac-mediawiki-extension
+# Zodiac Mediawiki Extension
 
-Features
+**Features:**
 
-- Adds a field for an Ethereum Address under user profile preferences
+- Adds a field for an ethereum address under the user profile preferences.
 
-1. Follow the MediaWiki setup instructions [here](https://github.com/gitbot-eth/zodiac-mediawiki-skin)
-2. `cd extensions/`
-3. `git clone https://github.com/gitbot-eth/zodiac-mediawiki-extension.git ZodiacExtension`
-4. Add `wfLoadExtension('ZodiacExtension');` to `LocalSettings.php` (at the mediawiki root)
+
+## Activating the extension in a MediaWiki instance
+1. **Get the extension:** 
+Clone this repo into the MediaWiki's `extensions` directory: 
+```
+cd extensions
+git clone https://github.com/gnosis/zodiac-mediawiki-extension.git ZodiacExtension
+```
+
+2. **Activate the extension:** 
+In the `LocalSettings.php` file (located at the root of the MediaWiki directory):
+   1. Add `wfLoadExtension('ZodiacExtension');`
+
+For instructions on how to set up a MediaWiki instance for development, see: https://github.com/gnosis/zodiac-mediawiki-skin#setting-up-a-general-mediawiki-development-environment
