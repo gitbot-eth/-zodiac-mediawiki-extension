@@ -1,5 +1,5 @@
 # Zodiac Mediawiki Extension
-
+*The extension is only tested on MediaWiki version 1.37.*
 **Features:**
 
 - Adds a field for an ethereum address under the user profile preferences.
